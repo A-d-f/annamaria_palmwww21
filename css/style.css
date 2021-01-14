@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(245, 101, 245, 0.2);
+    color:rgb(15, 15, 15);
+    font-family:helvetica, arial, franklin Gothic Medium;
+    text-align: justify;
+    
+    
+    
+
+}
+
+h1 {
+    color: rgb(128, 18, 78);
+    font-size: 16px;
+    text-decoration: rgb(197, 31, 197);
+    border-bottom: rgb(100, 2, 68), 2px;
+    
+}
+
+a {
+    font-weight:300;
+    color:rgb(128, 20, 20);
+    text-decoration: rgb(170, 60, 97);
+    
+}
+
+a:hover {
+    
+    font-weight:700;
+    color: rgb(248, 23, 23, .5);
+    text-decoration:line-through;
+    
+    
+}
+
+figure {
+    width:100%;
+    max-width:300px;
+    float:right;
+    
+    display:block;
+    position:relative;
+    overflow: hidden;
+    
+}
+figcaption { 
+    position: absolute; 
+    background: rgba(105, 99, 99, 0.75); 
+    color: white; 
+    padding: 10px 20px; 
+  
+    opacity: 0;
+    bottom: 0; 
+    left: -30%;
+    
+    
+  }
+
+  figure:hover figcaption {
+    opacity: 1;
+    left: 0;
+   
+  }
+
+  ul {
+    list-style:none;
+  }
+  ul li{
+    display:inline-block; 
+    padding:0 7px; 
+    position:relative;
+  }
+  ul li:not(:last-child)::after{
+    content:""; 
+    border:1px solid #f049a5;
+    border-width: 1px 1px 0 0;
+    position:absolute; 
+    right:-3px; 
+    top:0; 
+    height:100%;
+  }
+  
+  
