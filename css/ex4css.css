@@ -43,6 +43,8 @@ li a:hover {
 .con {
     display:flex;
     align-items:stretch;
+    text-align:center;
+    
     
 }
 
@@ -70,9 +72,9 @@ footer {
 
 }
 
-content {
-    margin-left:50px;
-    text-align: center;
+
+content>article {
+    display:table-row;
     font-family: 'Times New Roman', Times, serif;
     max-width: 500px;
 
