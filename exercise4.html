@@ -1,11 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ex 4</title>
+    <style>
+        .wrapper {
+            margin:auto;
+            width: 80%;
+
+        }
+
+        .head {
+            display: flex;
+            flex-flow:row wrap;
+            justify-content:center;
+            margin: 0;
+            background-color: rgb(150, 138, 135, .5);
+
+        }
+
+        .head>li {
+            list-style: none;
+            margin: 0;
+            padding: 1em;
+            color: rgba(44, 40, 40, 0.8);
+
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+        }
+
+        li a {
+            display: block;
+            color: rgba(0, 0, 0, 0.651);
+            padding: 8px 16px;
+            text-decoration: none;
+
+        }
+
+        li a:hover {
+            background-color: #555;
+            color: white;
+        }
+
+        .con {
+            display:flex;
+            align-items:stretch;
+            
+        }
+
+        .leftbar {
+            background-color: rgb(55, 56, 58, .5);
+            color: rgba(43, 39, 39, 0.822);
+            padding: 2em;
+
+        }
+
+        .rightbar {
+            background-color: white;
+            color: black;
+            
+
+        }
+
+
+        footer {
+            background-color: rgb(150, 138, 135, .5);
+            color: rgb(104, 100, 100);
+            height: 40px;
+            text-align: center;
+            overflow: hidden;
+
+        }
+    </style>
 </head>
+
 <body>
-    
+
+    <div class="wrapper">
+        <header>
+            
+                <ul class="head">
+
+                    <li><a href=AboutUs.html>About us</a></li>
+                    <li><a href=index.html>Strategy</a></li>
+                    <li><a href=Projects.html>References</a></li>
+                    <li><a href=AboutUs.html>Contact</a></li>
+
+                </ul>
+           
+        </header>
+
+        <div class="con">
+            <div class="leftbar" style="max-width: 200px;">
+
+                <p>I'm just a side bar</p>
+
+                <p>I'm very important piece of this website.</p>
+
+                <p>If you disagree, I'm not a friend of you.</p>
+
+                <p>Have a nice journey!</p>
+
+                <p>Have a nice day!</p>
+
+                <p>Have a nice life!</p>
+
+            </div>
+
+            <content style="margin-left:60px; text-align: center; font-family: 'Times New Roman', Times, serif; max-width: 800px;">
+               
+                <article><br><br>
+                    <h1>MAIN CONTENT</h1>
+
+                    <p><i>Hello and welcome to this awesome site which offers a load of information about averything you
+                        might
+                        like to know. First of all I'll guide you a little bit.<br><br>
+                        
+                        Here in top you'll see "topics" like
+                        "about", "strategy" etc - these are links. These links guides you to different pages in which
+                        you
+                        can read very much information about these things, you know.</i></p>
+                </article>
+            
+            </content>
+
+        </div>
+
+        <footer>
+            <address>Hämeen ammattikorkeakoulu HAMK<br>PL 230 13101 Hämeenlinna</address>
+        </footer>
+
+    </div>
 </body>
+
 </html>
