@@ -46,6 +46,7 @@ li a:hover {
     text-align:center;
     
     
+    
 }
 
 .leftbar {
@@ -72,17 +73,22 @@ footer {
 
 }
 
-
+content {
+   margin-left: 50px;
+   padding: 3em;
+    
+}
 content>article {
     display:table-row;
     font-family: 'Times New Roman', Times, serif;
-    max-width: 500px;
+    max-width: 300px;
+    color: rgba(0, 0, 0, 0.651);
 
 }
 
 img {
-    width:150px;
-    height:150px;
+    width:100px;
+    height:100px;
     max-width: 100%;
     height: auto;
     width: auto\9;
