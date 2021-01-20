@@ -1,0 +1,39 @@
+nav {
+    background-color: rgba(0, 0, 0, 0.144);
+}
+
+.container-fluid {
+    margin-top: 5px;
+}
+
+.table-striped table-hover {
+    margin-top: 10px;
+}
+
+.table {
+    margin-top: 10px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.col-sm {
+    background-color: rgba(105, 105, 105, 0.13);
+}
+
+.col-sm>p {
+    margin-top: 20px;
+    font-style: italic;
+    color: hotpink;
+}
+
+.btn {
+    background-color: darkgrey;
+    font-size: small;
+    font-style: italic;
+}
+
+.col-md-3 {
+    font-size: small;
+}
