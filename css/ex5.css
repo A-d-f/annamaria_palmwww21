@@ -6,12 +6,9 @@ nav {
     margin-top: 5px;
 }
 
-.table-striped table-hover {
-    margin-top: 10px;
-}
 
-.table {
-    margin-top: 10px;
+.col-sm>.table {
+    margin-top: 20px;
 }
 
 .container {
